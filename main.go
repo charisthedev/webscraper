@@ -7,8 +7,8 @@ import (
 )
 
 func main(){
-	i:=""
+	var url string;
 	utils.OnGo();
-	fmt.Scan(&i)
-	fmt.Println(i)
+	fmt.Scan(&url)
+	utils.Scraper(url)
 }
