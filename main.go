@@ -8,7 +8,7 @@ import (
 
 func main(){
 	var url string;
-	utils.OnGo();
+	fmt.Printf("Enter url to scrape:")
 	fmt.Scan(&url)
 	utils.Scraper(url)
 }
